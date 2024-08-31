@@ -1,12 +1,6 @@
-.header {
+body {
 	color: red;
-	background: yellow;
 }
-
-.header-h3 {
-	color: chocolate;
-}
-
-#my-main-header {
-	background: blue;
+.header {
+	color: yellow;
 }
