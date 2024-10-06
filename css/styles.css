@@ -1,5 +1,6 @@
-*{
-	background-color: aqua;
+* {
+	box-sizing: border-box;
+	olor: red;
 }
 body {
 	color: red;
@@ -7,3 +8,49 @@ body {
 .header {
 	color: yellow;
 }
+
+#my-main-header {
+	color: green;
+}
+
+.parent {
+	color: orange;
+}
+
+.parent .child {
+	color: blueviolet;
+}
+
+.parent.parent-2 {
+	background-color: brown;
+}
+
+.parent.parent-2 .child {
+	background-color: yellow;
+}
+
+.list > .list-first {
+	background-color: blueviolet;
+}
+.list-first + .list-second {
+	background-color: black;
+	color: white;
+}
+
+.parent3 div:first-child,
+.parent3 div:last-child
+{
+	background: gray;
+}
+
+.parent3 div:nth-child(5){
+	background: green;
+}
+
+.parent3 div:nth-child(2n){
+	background: yellow;
+}
+
+
+
+
