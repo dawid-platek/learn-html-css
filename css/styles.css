@@ -3,14 +3,14 @@
 	olor: red;
 }
 body {
-	color: red;
+	color: rgb(255, 77, 166);
 }
 .header {
-	color: yellow;
+	color: #ffff66;
 }
 
 #my-main-header {
-	color: green;
+	color: hsl(120, 100%, 25%);
 }
 
 .parent {
