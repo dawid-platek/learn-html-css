@@ -1,56 +1,9 @@
-* {
-	box-sizing: border-box;
-	olor: red;
-}
 body {
-	color: rgb(255, 77, 166);
+	background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,132,29,1) 50%, rgba(31,19,3,1) 90%);
 }
+
 .header {
-	color: #ffff66;
+	background: #000;
+	color: #ffffff;
 }
-
-#my-main-header {
-	color: hsl(120, 100%, 25%);
-}
-
-.parent {
-	color: orange;
-}
-
-.parent .child {
-	color: blueviolet;
-}
-
-.parent.parent-2 {
-	background-color: brown;
-}
-
-.parent.parent-2 .child {
-	background-color: yellow;
-}
-
-.list > .list-first {
-	background-color: blueviolet;
-}
-.list-first + .list-second {
-	background-color: black;
-	color: white;
-}
-
-.parent3 div:first-child,
-.parent3 div:last-child
-{
-	background: gray;
-}
-
-.parent3 div:nth-child(5){
-	background: green;
-}
-
-.parent3 div:nth-child(2n){
-	background: yellow;
-}
-
-
-
-
