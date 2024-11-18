@@ -1,9 +1,25 @@
 body {
-	background: rgb(131,58,180);
-background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,132,29,1) 50%, rgba(31,19,3,1) 90%);
+	background: rgb(131, 58, 180);
 }
 
 .header {
 	background: #000;
 	color: #ffffff;
 }
+
+.card {
+	color: #ff0000;
+}
+
+.card-div{
+	color: #ffff00;
+}
+
+.card-header{
+	color: #ffffff;
+}
+
+.card-p{
+	color: #00ffff;
+}
+
