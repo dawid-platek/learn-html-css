@@ -11,15 +11,29 @@ body {
 	color: #ff0000;
 }
 
-.card-div{
+.card-div {
 	color: #ffff00;
 }
 
-.card-header{
+.card-header {
 	color: #ffffff;
 }
 
-.card-p{
+.card-p {
 	color: #00ffff;
 }
 
+span {
+	background-color: #ff0000;
+}
+
+#span-id {
+	background-color: #b482ee;
+}
+.span-class {
+	background-color: #008000;
+}
+
+body #span-id.span-class {
+	background-color: #d7ee82;
+}
