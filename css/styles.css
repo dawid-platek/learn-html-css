@@ -27,13 +27,6 @@ span {
 	background-color: #ff0000;
 }
 
-#span-id {
-	background-color: #b482ee;
-}
-.span-class {
-	background-color: #008000;
-}
-
 body #span-id.span-class {
 	background-color: #d7ee82;
 }
