@@ -1,72 +1,7 @@
-body {
-	background: rgb(131, 58, 180);
-}
-
-.header {
-	background: #000;
-	color: #ffffff;
-}
-
-.card {
-	color: #ff0000;
-}
-
-.card-div {
-	color: #ffff00;
-}
-
-.card-header {
-	color: #ffffff;
-}
-
-.card-p {
-	color: #00ffff;
-}
-
-span {
-	background-color: #ff0000;
-}
-
-body #span-id.span-class {
-	background-color: #d7ee82;
-}
-
-.text {
-	font-family: Helvetica, Arial, Verdana, sans-serif;
-	font-size: 20px;
-	font-weight: normal;
-	font-style: italic;
-	line-height: 1.5;
-	letter-spacing: 0.3px;
-	color: #ce7c38;
-	background: #000000;
-	text-decoration: underline;
-	text-align: center;
-	text-transform: uppercase;
-}
-
 html {
 	font-size: 62.5%; /* = 10px, bo dla 100% jest domyslnie 16px */
 }
 
-.text-paragraph {
-	font-size: 3rem;
-}
-
-.units {
-	width: 50vw;
-	height: 100vh;
-	background: #adff2f;
-	color: #ffffff;
-	font-size: 100px;
-}
-
-.unit {
-	width: 32%;
-	background: rgb(141, 130, 238);
-	color: white;
-	font-size: 20px;
-	text-align: center;
-	vertical-align: top;
-	display: inline-block; /*inline, block */
+body {
+	background: rgb(131, 58, 180);
 }
