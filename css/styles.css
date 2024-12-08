@@ -2,7 +2,7 @@ html {
 	font-size: 62.5%; /* = 10px, bo dla 100% jest domyslnie 16px */
 }
 
-.units{
+.units {
 	width: 100%;
 	height: 100vh;
 	background: green;
@@ -10,7 +10,7 @@ html {
 	font-size: 20px;
 }
 
-.unit{
+.unit {
 	width: 32%;
 	height: 100px;
 	background: violet;
@@ -21,11 +21,31 @@ html {
 	overflow: auto;
 }
 
-.link{
+.unit:hover {
+	background: grey;
+	cursor: pointer;
+}
+
+.link {
 	font-size: 2.5rem;
 	text-decoration: none;
 	color: white;
 	background: black;
 	font-style: italic;
-	
+}
+
+.link:link {
+	color: green;
+}
+
+.link:visited {
+	color: blue;
+}
+
+.link:hover {
+	color: yellow;
+}
+
+.link:active{
+	color: rgb(68, 12, 105)
 }
